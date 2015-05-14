@@ -32,7 +32,7 @@ This is an example to walk through a case scenario for OpSIN based processing of
 
 A) To be done before you run OpSIN
 
-A1) The example datafile '100W_constant_light_stimulation_example_01' contains the recorded electrophysiology data (20kHz sample rate) in column 1, and the voltage trace used for the light stimulation in column 2.
+A1) The example datafile '100W_constant_light_stimulation_example_01' contains the recorded electrophysiology data (20kHz sample rate) in column 1, and the voltage trace used for the light stimulation in column 3.
 
 A2) Copy the example datafile into a new folder and specify the directory by the variable name 'generalDataRootDirectory'
 
@@ -57,7 +57,7 @@ You will be asked to enter the number of CLEAN cluster template IDs to pool toge
 'Enter the number of CLEAN cluster template IDs you want to pool together:'
 Enter the number of clusters you would like to include and press return.
 
-You will have to select clusters based on visual inspection of the spike shape. Your selection include the cluster containing the one containing the highest number of spike waveforms.
+You will have to select clusters based on visual inspection of the spike shape. Your selection should include the cluster containing the one containing the highest number of spike waveforms.
 
 B3)
 You will be asked to specify the cluster ID(s) on which you like to base the template matching:
