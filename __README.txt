@@ -2,7 +2,7 @@
 OpSIN: Opto-genetic spikesorting and identification of neurons
 **********************************************
 
-This package contains various Matlab routines for extracting spike events associated with Channelrhodopson (ChR2) targeted neurons of interest.
+This package contains various Matlab routines for extracting spike events associated with Channelrhodopson (ChR2) targeted neurons of interest. 1Ch in the name of the file implies that the function works on single-channel electrophysiology data.
 
 For bug reports/comments/feedback, e-mail: parvez@ieee.org
 
@@ -10,7 +10,7 @@ For bug reports/comments/feedback, e-mail: parvez@ieee.org
 Main routines:
 **********************************************
 
-* OpSIN_SS_1Ch_batchWithGuisNew: semi-supervised spikesorting tool
+* OpSIN_SS_1Ch_batchWithGuisNew: Single Channel semi-supervised spikesorting tool
 
 This is the main entry point of the OpSIN algorithm. This tool is a combination of automated processing and manual annotation, to enable fast processing of single channel e-phys recordings. The automated processing allows the user to quickly divide the spike candidate pool into three categories: good/unsure/bad. Once this determination is made, the user is guided through the unsure set of spike candidates to finalize the spike annotation.
 
@@ -18,7 +18,7 @@ This is the main entry point of the OpSIN algorithm. This tool is a combination 
 Useful sub-routines:
 **********************************************
 
-1. Benchmarker_MoMa_1Ch_batch: Mostly manual benchmarking tool
+1. Benchmarker_MoMa_1Ch_batch: Single Channel Mostly manual benchmarking tool
 
 This tool is useful to generate expert-annotated ground-truth for single-channel e-phys recordings from a loose-patch or suction-electrode type preparation. The assumption is that one or a few neurons of interest are tagged with ChR2. It is the slowest of the available options in OpSIN package, but it is also the most objective approach to generate expert-guided ground-truth data.
 

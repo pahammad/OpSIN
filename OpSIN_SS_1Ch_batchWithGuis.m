@@ -1,7 +1,7 @@
 %************************************************************
-% Semi-supervised (SS) Benchmarking Tool for OpSIN
+% Single Channel Semi-supervised (SS) SpikeSorting Tool / OpSIN
 %************************************************************
-% Parvez Ahammad, HHMI;
+% Parvez Ahammad;
 %
 % parvez@ieee.org
 %************************************************************
@@ -15,11 +15,11 @@
 % third channel: light
 %************************************************************
 %
-% Comments/ Feedback:
+% Acknowledgments:
 % David Jarriault
 % Aljoscha Schulze (CRG, Spain)
 % Matthieu Louis (CRG, Spain)
-% Vivek Jayaraman (Janelia Farm, HHMI)
+% Vivek Jayaraman (Janelia Research Campus, HHMI)
 %************************************************************
 %
 
